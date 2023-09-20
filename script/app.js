@@ -29,6 +29,7 @@ syntax.forEach((lan)=>{
 const projects = data.projects;
 
 projects.forEach(project => {
+    const external_link = "./asset/svg/external-link.svg";
     const repo_inner_div = document.createElement("div");
     repo_inner_div.classList.add("repository-head");
     repo_inner_div.innerHTML = `
@@ -46,7 +47,7 @@ projects.forEach(project => {
     ><img
       width="16"
       height="16"
-      src="./asset/svg/external-link.svg"
+      src="${external_link}"
       alt="external-link"
   /></a>
     `;
