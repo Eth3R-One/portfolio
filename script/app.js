@@ -29,7 +29,7 @@ syntax.forEach((lan)=>{
 const projects = data.projects;
 
 projects.forEach(project => {
-    const external_link = "./asset/svg/external-link.svg";
+    const external_link = "asset/svg/external-link.svg";
     const repo_inner_div = document.createElement("div");
     repo_inner_div.classList.add("repository-head");
     repo_inner_div.innerHTML = `
@@ -40,17 +40,19 @@ projects.forEach(project => {
   >
     <h3>${project.title}</h3>
   </a>
-  <a
+    `;
+    repo_inner_div.innerHTML += `  <a
     href="${project.link}"
     target="_blank"
     rel="Refayth Hossain"
-    ><img
+    >
+    <img
       width="16"
       height="16"
       src="${external_link}"
       alt="external-link"
-  /></a>
-    `;
+    />
+  </a>`;
     const repo = document.createElement("div");
     repo.classList.add("repository-container");    
     repo.appendChild(repo_inner_div);
