@@ -29,7 +29,7 @@ syntax.forEach((lan)=>{
 const projects = data.projects;
 
 projects.forEach(project => {
-    const external_link = "asset/svg/external-link.svg";
+    const external_link = "./assets/external-link-0ae89760.svg";
     const repo_inner_div = document.createElement("div");
     repo_inner_div.classList.add("repository-head");
     repo_inner_div.innerHTML = `
@@ -41,7 +41,7 @@ projects.forEach(project => {
     <h3>${project.title}</h3>
   </a>
     `;
-    repo_inner_div.innerHTML += `  <a
+    repo_inner_div.innerHTML += `<a
     href="${project.link}"
     target="_blank"
     rel="Refayth Hossain"
