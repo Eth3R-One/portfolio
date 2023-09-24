@@ -1,6 +1,5 @@
 import data from '../projects.json' ;
 
-
 function get_random_quote(){
     return data.quotes[Math.floor(Math.random() * data.quotes.length)];
 }
@@ -71,5 +70,3 @@ projects.forEach(project => {
     repo.appendChild(lang);
     document.getElementById("project-list").appendChild(repo);
 });
-
-
