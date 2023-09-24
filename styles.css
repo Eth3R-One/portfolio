@@ -414,7 +414,7 @@ footer {
   min-height: 100vh;
 }
 
-/* .flex-end {
+.flex-end {
   align-items: flex-end;
   padding-bottom: 15vh;
-} */
+}
