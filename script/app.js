@@ -1,7 +1,5 @@
 import data from "../projects.json";
-import { inject } from "@vercel/analytics";
 
-inject();
 function get_random_quote() {
   return data.quotes[Math.floor(Math.random() * data.quotes.length)];
 }
