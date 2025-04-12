@@ -4,7 +4,29 @@
       "title": "Moly-mart store",
       "description": "An e-commerce website with admin dashboard for controlling products, orders and custom ui and themes with many sections. Manage order, stock, deliver using pathao.",
       "link": "https://molymart-store.vercel.app/",
-      "language": ["Python", "Django", "Django Rest-Api"]
+      "language": [
+        "TypeScript",
+        "React",
+        "NextJs",
+        "Zustand",
+        "React-hook-form",
+        "Zod",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "title": "Moly-mart admin",
+      "description": "Admin dashboard for controlling products with variants and simple, orders and custom ui and themes with many sections. Manage order, stock, deliver using pathao. Store credentials securely and dynamically for integrations.",
+      "link": "https://molyecom-vendor-panel.vercel.app/",
+      "language": [
+        "TypeScript",
+        "React",
+        "NextJs",
+        "Zustand",
+        "Zod",
+        "TailwindCSS",
+        "React-hook-form"
+      ]
     },
     {
       "title": "Asset Tracking rest api",
